@@ -1,0 +1,16 @@
+{
+    "name": "root/exo9",
+    "require": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yohan Levy",
+            "email": "yhnlvy@gmail.com"
+        }
+    ]
+}
