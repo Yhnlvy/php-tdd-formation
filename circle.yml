@@ -3,7 +3,4 @@ machine:
     version: 7.0.4
 test:
   override:
-    - composer require phpunit/phpunit --dev
-    - vendor/bin/phpunit --version
-    - vendor/bin/phpunit CalculatorTest.php
     - phpunit CalculatorTest.php
