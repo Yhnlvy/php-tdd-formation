@@ -1,5 +1,9 @@
 <?php
 require 'Calculator.php';
+
+if (!class_exists('\PHPUnit\Framework\TestCase')) {
+     class_alias('\PHPUnit_Framework_TestCase', '\PHPUnit\Framework\TestCase');
+ }
  
 class CalculatorTests extends \PHPUnit\Framework\TestCase
 {
