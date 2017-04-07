@@ -3,4 +3,5 @@ machine:
     version: 7.0.4
 test:
   override:
+    - php composer.phar update phpunit/phpunit
     - phpunit CalculatorTest.php
