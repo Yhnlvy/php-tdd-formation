@@ -1,7 +1,7 @@
 <?php
 require 'Calculator.php';
  
-class CalculatorTests extends PHPUnit_Framework_TestCase
+class CalculatorTests extends \PHPUnit\Framework\TestCase
 {
     private $calculator;
  
