@@ -23,7 +23,7 @@ class Calculator
             }
             $res = $res + $current;
         }
-        return 0;
+        return $res;
     }
 
     public function parseInput($input)
