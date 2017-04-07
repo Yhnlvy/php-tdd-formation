@@ -3,4 +3,4 @@ machine:
     version: 7.0.4
 test:
   override:
-    - phpunit Calculator.php
+    - phpunit CalculatorTest.php
